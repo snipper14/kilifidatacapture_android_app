@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/refered_to_police"
+
+        android:textColor="@color/black"
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="0"
+                android:id="@+id/et_police_reported"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Total"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/tota_refereed_hosp"
+
+        android:textColor="@color/black"
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="0"
+                android:id="@+id/et_hosp_reported"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Total"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

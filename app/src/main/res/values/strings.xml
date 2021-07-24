@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DataCollection</string>
+    <string name="strategic_objective_1">Strategic Objective 1: To improve equitable access to quality AYP friendly SRHR/HIV information and services</string>
+    <string name="strategic_objective_2">To strengthen meaningful engagement of communities in AYP programs and policy processes</string>
+    <string name="strategic_objective_3">To strengthen multisectoral coordination on SRH/HIV health outcomes among AYP</string>
+    <string name="strategic_objective_4">To promote sustainable financing mechanism for AYSHR/HIV programs and services</string>
+    <string name="expected_outcome_1">Increased knowledge on HIV and SRH among AYP and communities</string>
+    <string name="age_10_14">Total Reached 10-14 yrs</string>
+    <string name="age_15_17">Total Reached 15-17 yrs</string>
+    <string name="age_18_24">Total Reached 18-24 yrs</string>
+    <string name="above_25">Total Reached Above 25 yrs</string>
+    <string name="total_attendees"><![CDATA[Total Male & Female]]></string>
+    <string name="submitted_by">Report Submitted by</string>
+    <string name="organization_involved">Organization</string>
+    <string name="regster">Register</string>
+    <string name="gbv_healthcare">Report by Health Care Workers and  community champions</string>
+    <string name="gbv_police_station">"Reporting tool for Police Stations "</string>
+    <string name="gbv_judiciary">Reporting tool for Judiciary/Court</string>
+    <string name="gbv_defilement">Defilement</string>
+    <string name="gbv_sodomy">Sodomy</string>
+    <string name="gbv_sgbv">SGBV</string>
+    <string name="refered_to_police">Total number refered to police</string>
+    <string name="tota_refereed_hosp">Total number refered to the nearest Hospital</string>
+    <string name="survivor_seek_psy_help">"Total No.of survivor who started  Psychosocial support  "</string>
+    <string name="gbv_survivor_complete_psy_help">"Total No.of survivor who completed Psychosocial support "</string>
+    <string name="gbv_violation_age14">Defilement Total reported cases for  10-14 yrs</string>
+    <string name="gbv_violation_age17">Defilement Total reported cases  15-17 yrs</string>
+
+    <string name="gbv_violation_sodomy_age14">Sodomy Total reported cases for  10-14 yrs</string>
+    <string name="gbv_violation_sodomy_age17">Sodomy Total reported cases  15-17 yrs</string>
+
+
+    <string name="gbv_violation_sgbv_age14">Intimate partner violence (SGBV) Total reported cases for  18-24 yrs</string>
+    <string name="gbv_violation_sgbv_age17">Intimate partner violence (SGBV)  Total reported cases Above 24yrs</string>
+    <string name="mhm_reporting">Reporting tool for MHM</string>
+</resources>

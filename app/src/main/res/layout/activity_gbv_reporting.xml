@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:elevation="4dp"
+        app:theme="@style/ToolbarTheme"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GBV Reporting Tools"
+        android:id="@+id/text2"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/tool_bar"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+       >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:id="@+id/ln_gbv_healthcare"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/times_newroman"
+            android:padding="12dp"
+            android:text="@string/gbv_healthcare"
+            android:id="@+id/tv_gbv_healthcare"
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:background="@drawable/text_border"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/ln_gbv_police_stations"
+        android:layout_below="@+id/ln_gbv_healthcare"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/times_newroman"
+            android:padding="12dp"
+            android:id="@+id/tv_gbv_police_stations"
+            android:textColor="@color/black"
+            android:text="@string/gbv_police_station"
+            android:textSize="18dp"
+            android:background="@drawable/text_border"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ln_gbv_police_stations"
+        android:id="@+id/ln_gbv_judiciary"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/times_newroman"
+            android:padding="12dp"
+            android:id="@+id/tv_gbv_judiciary"
+            android:textColor="@color/black"
+            android:text="@string/gbv_judiciary"
+            android:textSize="18dp"
+            android:background="@drawable/text_border"
+            />
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

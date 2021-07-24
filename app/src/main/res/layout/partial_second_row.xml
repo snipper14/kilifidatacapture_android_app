@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight=".5" />
+
+        <ImageView
+            android:id="@+id/imgGBV"
+            style="@style/InlinedImageView" />
+
+        <ImageView
+            android:id="@+id/imgMHM"
+            style="@style/InlinedImageView" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight=".5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight=".5" />
+
+        <TextView
+            style="@style/InlinedTextView"
+            android:text="GBV"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            style="@style/InlinedTextView"
+            android:text="MHM"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight=".5" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_textsize">24sp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="line_height">110dp</dimen>
+    <dimen name="line_height_80">72dp</dimen>
+    <dimen name="margin_in_between">2dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
+</resources>

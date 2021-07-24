@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/tv_violation_age_10_14"
+
+        android:textColor="@color/black"
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/et_gbv_male_10_14"
+                android:text="0"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Male"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="0"
+                android:id="@+id/et_gbv_female_10_14"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Female"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/tv_violation_age_15_17"
+
+        android:textColor="@color/black"
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="0"
+                android:id="@+id/et_gbv_male_15_17"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Male"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="0"
+                android:id="@+id/et_gbv_female_15_17"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Female"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+</LinearLayout>

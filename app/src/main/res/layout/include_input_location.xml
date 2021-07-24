@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/etCounty"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="County"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/etSubCounty"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Sub County"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/etWard"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Ward"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/etLocation"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Location"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+</LinearLayout>

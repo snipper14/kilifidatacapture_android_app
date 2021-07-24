@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:textColor="@color/black"
+        android:text="@string/submitted_by"
+
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etSubmittedBy"
+
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Full Names"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:textColor="@color/black"
+        android:text="@string/organization_involved"
+
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!--  This is the main content -->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="15dp" android:background="@drawable/text_border"
+            android:orientation="vertical" android:padding="15dp">
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etOrganization"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+
+        <!--  This is the title label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:text="Organization"
+            android:layout_marginLeft="30dp"  />
+
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="SAVE DETAILS"
+        android:id="@+id/btn_submit_info"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        />
+</LinearLayout>
